@@ -1,0 +1,17 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Sarala&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Arima&display=swap');
+
+
+/*background-color:#B9C1EB;
+background-color: #B9EBC4;
+background-color:#EBB9C0;
+background-color:#EBDFB9;
+background-color:#998386;*/
+
+body {
+    font-family: 'Sarala', sans-serif; 
+
+}
