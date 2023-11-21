@@ -4,21 +4,73 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
 
-
-
-/*background-color:#B9C1EB;
-background-color: #B9EBC4;
-background-color:#EBB9C0;
-background-color:#EBDFB9;
-background-color:#998386;*/
-
-body {
-    font-family: 'Sarala', sans-serif; 
-    background-color:#EBDFB9 ;
-    
-
+@font-face {
+    font-family:'Sarala' ;
+    src:url();
+    font-weight: normal;
 }
-h1 {
-    font-family: 'Righteous', sans-serif;
 
+
+
+
+:root {
+    --cor0: #B9C1EB;
+    --cor1 :#B9EBC4;
+    --cor2: #EBB9C0;
+    --cor3: #EBDFB9;
+    --cor4: #7e6669;
+
+    --fonte-padrao: Arial,Verdana,Helvetica,sans-serif;
+    --fonte-destaque: 'Sarala', sans-serif;
+    --fonte-especial:'Righteous', sans-serif;
 }
+
+        * {
+            margin:0px;
+            padding: 0px;
+            
+        }
+
+        body {
+            font-family: 'Sarala', sans-serif; 
+            background-color:var(--cor3);
+            
+        }
+
+        header {
+            background-color: var(--cor2);
+        }
+
+        header > h1 {
+            color:var(--cor4);
+            font-family: 'Righteous', sans-serif;
+            
+
+        }
+
+        nav{
+            background-color: var(--cor0);
+        }
+
+        main {
+            background-color: var(--cor3);
+           
+
+        }
+
+        main h1 {
+        background-color: var(--cor1);
+        color: var(--cor4);
+        font-family: 'Righteous', sans-serif;
+        }
+
+        main h2 {
+            font-family: 'Righteous', sans-serif; 
+            background-color: var(--cor2); 
+            color: var(--cor4);
+        }
+
+        footer {
+            background-color: var(--cor4);
+            color:white;
+        }
