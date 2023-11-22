@@ -58,7 +58,7 @@
         header > h1 {
             color:var(--cor4);
             font-family: 'Righteous', sans-serif;
-            margin-bottom: 15px;
+            margin-bottom: 20px;
             text-align: center;
             font-size: 3em;
             text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.123);
